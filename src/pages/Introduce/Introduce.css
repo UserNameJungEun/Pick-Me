@@ -1,0 +1,41 @@
+.Itr_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+}
+
+.Itr_Image{
+    height: 100vh;
+}
+
+.Itr_Text {
+ 
+    text-align: center; 
+}
+
+.Itr_MainText {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 50px;  
+ 
+}
+.Itr_Text p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.Itr_Cursor {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+

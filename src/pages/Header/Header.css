@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+
+}
+
+.Header {
+    width: 1400px;
+
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    /* 양쪽에 공간을 주는 설정 */
+    align-items: center;
+}
+
+
+
+
+.Nav_Logo {
+    margin-top: 20px;
+    flex: 1;
+    border: 3px solid #C4DFAA;
+    border-style: double;
+    border-radius: 50px;
+    width: 200px;
+    height: 70px;
+    align-items: center;
+    text-align: center;
+    line-height: 90px;
+    position: static;
+    left: 0;
+    right: 0;
+    top: 10px;
+    background-image: url(../images/YEll.jpg);
+
+
+}
+
+.Nav-Ul {
+    margin-top: 20px;
+    height: 50px;
+    width: calc(100% /2);
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid #03C75a;
+    border-bottom: 3px solid #03C75a;
+    align-items: center;
+
+}
